@@ -1,0 +1,51 @@
+<!-- Label in HTML
+Lables tells the user what information to enter in the input field. -->
+
+<!-- Simple Approach -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label</title>
+</head>
+
+<body>
+    <form action="/action">
+        <label>Username
+            <input type="text" placeholder="enter username">
+        </label>
+        <br>
+        <label>Password
+            <input type="password" placeholder="enter password">
+        </label>
+    </form>
+</body>
+
+</html>
+
+
+
+<!-- Classical Approach -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label in HTML</title>
+</head>
+
+<body>
+    <form action="/action">
+        <label for="username">Enter your username here :</label>
+        <input type="text" id="username" placeholder="Write your username">
+        <br>
+        <label for="password">Enter your password here :</label>
+        <input type="password" id="password" placeholder="Write your password">
+    </form>
+</body>
+
+</html>
+<!-- We can also use div instead of using br. -->
